@@ -9,11 +9,12 @@ import Container from '@material-ui/core/Container';
 import Home from './components/Home/Home';
 import Card from './components/Card/Card';
 import OTP from './components/OTP/OTP';
+import styles from './App.module.css';
 
 function App() {
   return (
     <Router>
-      <Container maxWidth="xs">
+      <Container maxWidth="xs" className={styles.container}>
         {/* <nav>
           <ul>
             <li>
