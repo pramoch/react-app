@@ -1,0 +1,14 @@
+{
+  "en": {
+    "translation": {
+      "Card": "Card",
+      "OTP": "OTP"
+    }
+  },
+  "th": {
+    "translation": {
+      "Card": "บัตร",
+      "OTP": "รหัส OTP"
+    }
+  }
+}
