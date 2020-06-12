@@ -3,9 +3,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
-
+import Container from '@material-ui/core/Container';
 import Home from './components/Home/Home';
 import Card from './components/Card/Card';
 import OTP from './components/OTP/OTP';
@@ -13,8 +13,8 @@ import OTP from './components/OTP/OTP';
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
+      <Container maxWidth="xs">
+        {/* <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -26,7 +26,7 @@ function App() {
               <Link to="/card">card</Link>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <Switch>
           <Route path="/otp">
@@ -39,7 +39,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
+      </Container>
     </Router>
   );
 }
