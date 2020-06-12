@@ -3,9 +3,11 @@ import Button from '@material-ui/core/Button';
 import styles from './Home.module.css';
 import { CreditCard, ScreenLockPortrait } from '@material-ui/icons';
 import { useTranslation } from 'react-i18next';
+import { useHistory } from "react-router-dom";
 
 const Home = () => {
   const { t, i18n } = useTranslation();
+  const history = useHistory();
 
   const changeLang = (e, lang) => {
     e.preventDefault();
@@ -15,12 +17,12 @@ const Home = () => {
   return (
     <div>
       <div className={styles.buttonWrapper}>
-        <Button startIcon={<ScreenLockPortrait/>} fullWidth size="large" variant="contained" color="primary">
+        <Button onClick={() => history.push('/otp')} startIcon={<ScreenLockPortrait/>} fullWidth size="large" variant="contained" color="primary">
           {t('OTP')}
         </Button>
       </div>
       <div className={styles.buttonWrapper}>
-        <Button startIcon={<CreditCard/>} fullWidth size="large" variant="contained" color="primary">
+        <Button onClick={() => history.push('/card')} startIcon={<CreditCard/>} fullWidth size="large" variant="contained" color="primary">
           {t('Card')}
         </Button>
       </div>
