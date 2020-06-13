@@ -23,7 +23,7 @@ const Home = () => {
       </div>
       <div className={styles.buttonWrapper}>
         <Button onClick={() => history.push('/card')} startIcon={<CreditCard/>} fullWidth size="large" variant="contained" color="primary">
-          {t('Card')}
+          {t('CARD')}
         </Button>
       </div>
       <div className={styles.languageWrapper}>

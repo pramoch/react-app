@@ -1,14 +1,20 @@
 {
   "en": {
     "translation": {
-      "Card": "Card",
-      "OTP": "OTP"
+      "CARD": "Card",
+      "OTP": "OTP",
+      "ENTER_MOBILE_NUMBER": "Please enter your mobile number.",
+      "YOUR_MOBILE_NUMBER": "Your mobile number",
+      "ENTER_OTP": "Please enter six digits OTP"
     }
   },
   "th": {
     "translation": {
-      "Card": "บัตร",
-      "OTP": "รหัส OTP"
+      "CARD": "บัตร",
+      "OTP": "รหัส OTP",
+      "ENTER_MOBILE_NUMBER": "กรุณากรอกเบอร์โทรศัพท์ที่ท่านได้ให้ไว้กับธนาคารและกดขอรหัส OTP",
+      "YOUR_MOBILE_NUMBER": "เบอร์โทรศัพท์มือถือที่ท่านได้ให้ไว้กับธนาคาร",
+      "ENTER_OTP": "กรุณากรอกรหัส OTP 6 หลักที่ท่านได้รับทาง SMS"
     }
   }
 }

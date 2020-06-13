@@ -5,7 +5,7 @@ const Card = () => {
   const { t } = useTranslation();
 
   return (
-    <div>{ t('Card')}</div>
+    <div>{ t('CARD')}</div>
   )
 }
 
