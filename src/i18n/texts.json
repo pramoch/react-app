@@ -7,7 +7,9 @@
       "YOUR_MOBILE_NUMBER": "Your mobile number",
       "ENTER_OTP": "Please enter six digits OTP",
       "CONFIRM": "Confirm",
-      "REQUEST_OTP": "Request OTP"
+      "REQUEST_OTP": "Request OTP",
+      "OTP_ERROR": "OTP must be 6 digits",
+      "MOBILE_NUMBER_ERROR": "Mobile number must be 10 digits"
     }
   },
   "th": {
@@ -18,7 +20,9 @@
       "YOUR_MOBILE_NUMBER": "เบอร์โทรศัพท์มือถือที่ท่านได้ให้ไว้กับธนาคาร",
       "ENTER_OTP": "กรุณากรอกรหัส OTP 6 หลักที่ท่านได้รับทาง SMS",
       "CONFIRM": "ยืนยัน",
-      "REQUEST_OTP": "ขอรหัส OTP"
+      "REQUEST_OTP": "ขอรหัส OTP",
+      "OTP_ERROR": "กรุณากรอกรหัส OTP 6 หลัก",
+      "MOBILE_NUMBER_ERROR": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก"
     }
   }
 }
