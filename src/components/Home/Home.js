@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import styles from './Home.module.css';
-import { CreditCard, ScreenLockPortrait } from '@material-ui/icons';
+import { CreditCard, ScreenLockPortrait, VpnKey } from '@material-ui/icons';
 import { useTranslation } from 'react-i18next';
 import { useHistory } from "react-router-dom";
 
@@ -16,6 +16,11 @@ const Home = () => {
 
   return (
     <div>
+      <div className={styles.buttonWrapper}>
+        <Button onClick={() => history.push('/login')} startIcon={<VpnKey/>} fullWidth size="large" variant="contained" color="primary">
+          {t('LOGIN')}
+        </Button>
+      </div>
       <div className={styles.buttonWrapper}>
         <Button onClick={() => history.push('/otp')} startIcon={<ScreenLockPortrait/>} fullWidth size="large" variant="contained" color="primary">
           {t('OTP')}
