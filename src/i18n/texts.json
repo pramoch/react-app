@@ -10,7 +10,8 @@
       "REQUEST_OTP": "Request OTP",
       "OTP_ERROR": "OTP must be 6 digits",
       "MOBILE_NUMBER_ERROR": "Mobile number must be 10 digits",
-      "LOGIN": "Log in"
+      "LOGIN": "Log in",
+      "LOGOUT": "Log out"
     }
   },
   "th": {
@@ -24,7 +25,8 @@
       "REQUEST_OTP": "ขอรหัส OTP",
       "OTP_ERROR": "กรุณากรอกรหัส OTP 6 หลัก",
       "MOBILE_NUMBER_ERROR": "กรุณากรอกเบอร์โทรศัพท์ 10 หลัก",
-      "LOGIN": "เข้าสู่ระบบ"
+      "LOGIN": "เข้าสู่ระบบ",
+      "LOGOUT": "ออกจากระบบ"
     }
   }
 }
