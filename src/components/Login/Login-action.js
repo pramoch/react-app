@@ -1,9 +1,10 @@
-export const login = () => {
+export const login = (history, from) => {
   return (dispatch) => {
     dispatch({
       type: 'LOGIN'
     });
     dispatch(loginSuccess('LOGIN_TOKEN'));
+    history.replace(from);
   }
 }
 
